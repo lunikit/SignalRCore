@@ -1,0 +1,10 @@
+D:\Work\SignalRCore\Chater\Chater\bin\Debug\netcoreapp2.0\Chater.deps.json
+D:\Work\SignalRCore\Chater\Chater\bin\Debug\netcoreapp2.0\Chater.runtimeconfig.json
+D:\Work\SignalRCore\Chater\Chater\bin\Debug\netcoreapp2.0\Chater.runtimeconfig.dev.json
+D:\Work\SignalRCore\Chater\Chater\bin\Debug\netcoreapp2.0\Chater.dll
+D:\Work\SignalRCore\Chater\Chater\bin\Debug\netcoreapp2.0\Chater.pdb
+D:\Work\SignalRCore\Chater\Chater\obj\Debug\netcoreapp2.0\Chater.csproj.CoreCompileInputs.cache
+D:\Work\SignalRCore\Chater\Chater\obj\Debug\netcoreapp2.0\Chater.AssemblyInfoInputs.cache
+D:\Work\SignalRCore\Chater\Chater\obj\Debug\netcoreapp2.0\Chater.AssemblyInfo.cs
+D:\Work\SignalRCore\Chater\Chater\obj\Debug\netcoreapp2.0\Chater.dll
+D:\Work\SignalRCore\Chater\Chater\obj\Debug\netcoreapp2.0\Chater.pdb
