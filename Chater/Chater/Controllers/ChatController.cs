@@ -23,9 +23,9 @@ namespace Chater.Controllers
             return new string[] { "value1", "value2" };
         }
 
-        // GET: api/Chat/5
-        [HttpGet("{message}", Name = "Get")]
-        public string Get(string message)
+        // POST: api/Chat/5
+        [HttpPost("{message}", Name = "Post")]
+        public string Post(string message)
         {
             this._context.Clients.All.InvokeAsync("Send", message);
 
