@@ -8,3 +8,4 @@ D:\Work\SignalRCore\Chater\Chater\obj\Debug\netcoreapp2.0\Chater.AssemblyInfoInp
 D:\Work\SignalRCore\Chater\Chater\obj\Debug\netcoreapp2.0\Chater.AssemblyInfo.cs
 D:\Work\SignalRCore\Chater\Chater\obj\Debug\netcoreapp2.0\Chater.dll
 D:\Work\SignalRCore\Chater\Chater\obj\Debug\netcoreapp2.0\Chater.pdb
+D:\Work\SignalRCore\Chater\Chater\obj\Debug\netcoreapp2.0\Chater.csprojResolveAssemblyReference.cache

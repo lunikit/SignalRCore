@@ -4,3 +4,32 @@
 
 
 <p>Test</p>
+
+<div id="inputForm">
+    <input type="text" id="message" />
+    <input type="button" id="sendBtn" value="Отправить" />
+</div>
+<div id="chatroom"></div>
+
+<script src="~/js/signalr-client-1.0.0-alpha2-final.min.js"></script>
+<script>
+        let hubUrl = '/chat';
+        let httpConnection = new signalR.HttpConnection(hubUrl);
+        let hubConnection = new signalR.HubConnection(httpConnection);
+
+        hubConnection.on("Send", function (data) {
+
+            let elem = document.createElement("p");
+            elem.appendChild(document.createTextNode(data));
+            let firstElem = document.getElementById("chatroom").firstChild;
+            document.getElementById("chatroom").insertBefore(elem, firstElem);
+
+        });
+
+        document.getElementById("sendBtn").addEventListener("click", function (e) {
+            let message = document.getElementById("message").value;
+            hubConnection.invoke("Send", message);
+        });
+
+        hubConnection.start();
+</script>
