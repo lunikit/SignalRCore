@@ -13561,7 +13561,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nikit\\.nuget\\packages\\": {},
+    "C:\\Users\\mikita.luksha\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -13573,14 +13573,14 @@
       "projectUniqueName": "D:\\Work\\SignalRCore\\Chater\\Chater\\Chater.csproj",
       "projectName": "Chater",
       "projectPath": "D:\\Work\\SignalRCore\\Chater\\Chater\\Chater.csproj",
-      "packagesPath": "C:\\Users\\nikit\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\mikita.luksha\\.nuget\\packages\\",
       "outputPath": "D:\\Work\\SignalRCore\\Chater\\Chater\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\nikit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mikita.luksha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13604,22 +13604,22 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.All": {
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
-            "version": "[2.0.3, )"
-          },
-          "Microsoft.AspNetCore.SignalR": {
-            "target": "Package",
-            "version": "[1.0.0-alpha2-final, )"
+            "version": "2.0.1"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0",
             "autoReferenced": true
           },
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+          "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "[2.0.1, )"
+            "version": "2.0.3"
+          },
+          "Microsoft.AspNetCore.SignalR": {
+            "target": "Package",
+            "version": "1.0.0-alpha2-final"
           }
         },
         "imports": [
